@@ -1,0 +1,75 @@
+.signin-container{
+    max-width: 1000px;
+    margin: auto;
+    min-height: 500px;
+    // background-image: url('../../img/baner.jpeg');
+    // opacity: 0.7;
+    // position: relative;
+    .empty{
+        height: 70px;
+    }
+    .logout{
+        width: 300px;
+        margin: auto;
+        .logout-btn{
+            width: 300px;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            background-color:transparent;
+            border: 2px solid orange;
+            color: rgb(94, 102, 110);
+        }
+    }
+    h1,h4{
+        text-align: center;
+        // color: rgb(94, 102, 110);
+        color:white;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .signin-form{
+        width: 350px;
+        margin: auto;
+        .btn-submit{
+            width: 350px;
+            margin: auto;
+            padding: 10px 5px;
+            background-color: white;
+            font-size: 24px;
+            font-weight: 600;
+            color: rgb(94, 102, 110);
+            border: 5px solid orange;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    }
+    .login-error{
+        background-color:white;
+        margin-top: 40px !important;
+        width: 300px;
+        margin: auto;
+        border-radius: 5px;
+        p{
+            text-align: center;
+            padding: 5px;
+            // color: white;
+        }
+    }
+}
+.signin-container{
+    ::after {
+        content: "";
+        background: url('../../img/baner.jpeg');
+        opacity: 0.5;
+        top: 120px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+      }
+}

@@ -1,0 +1,165 @@
+.nav_container{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        cursor: pointer;
+        color: black;
+        text-decoration: none;
+    }
+    .nav_left{
+        width: 200px;
+    .nav_logo{
+        width: 200px;
+        margin: 10px 10px 10px 20px;
+        border-bottom: 1px solid lightgray;
+        .nav_h1{
+            font-size: 800;
+        }
+    }
+    .nav_social{
+        width: 150px;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+
+      
+
+    }
+    .nav_phone{
+        font-size: 18px;
+        color: maroon;
+        margin: 10px;
+        text-align: center;
+    }
+}
+.nav_right{
+    .nav_bar{
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin-right: 20px;
+        .nav__link-cart{
+            position: relative;
+            .nav__badge-cart{
+                position: absolute;
+                border: 2px solid rgb(99, 205, 50);
+                font-weight: 600;
+                border-radius: 50%;
+                padding: 5px;
+                width: 5px;
+                height: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                top: -7px;
+                left: 83px;
+            }
+        }
+        .nav__link-favorite{
+            position: relative;
+            .nav__badge-fav{
+                position: absolute;
+                border: 2px solid red;
+                font-weight: 600;
+                border-radius: 50%;
+                padding: 5px;
+                width: 5px;
+                height: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                top: -7px;
+                left: 103px;
+            }
+        }
+        a:first-child:hover{
+            color: blue;
+        }
+        a:nth-child(2n):hover{
+            color: green;
+        }
+        a:last-child:hover{
+            color: red;
+        }
+    }
+    
+    
+}
+
+}
+.nav_category{
+    background-color:black;
+    color: white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    // margin-top: -6px;
+    margin-bottom: 1px;
+    .category-left{
+        display: flex;
+        width: 70%;
+        // justify-content: space-around;
+        font-weight: 700;
+        text-align: center;
+        .category__list{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            li{
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            .active{
+                // text-decoration: underline;
+                border: 1px solid white;
+                padding: 5px;
+                border-radius: 50%;
+            }
+        }
+        a{
+          margin-top: 5px;
+          cursor: pointer;
+        }
+
+      
+    }
+    .category-rigth{
+        display: flex;
+        align-items: center;
+        margin-left: 300px;
+        width: 30%;
+       
+
+        p{
+            margin-right: 20px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .icons{
+            width: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .nav_insta{
+                color: rgb(231, 56, 114);
+                font-size: 18px;
+             }
+             .nav_whats{
+                 color: rgb(42, 163, 42);
+                 font-size: 18px;
+             }
+             .nav_teleg{
+                 color: rgb(25, 100, 161);
+                 font-size: 18px;
+             }
+        }
+    }
+}

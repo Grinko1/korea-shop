@@ -1,0 +1,53 @@
+.favorite__container{
+    .favorite__head{
+        text-align: center;
+        color: rgb(219, 32, 32);
+    }
+    .favorite__list{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        .favorite__item{
+            display: flex;
+            height: 250px;
+            align-items: center;
+            justify-content: space-around;
+            .favorite__item-imgBlock{
+                padding: 10px;
+                .favorite__item-img{
+                    width: 200px;
+                    height: 200px;
+                    object-fit: cover;
+                } 
+            }
+         
+            .favorite__item-desc{
+                width: 300px;
+            }
+            .favorite__item-toCart{
+                .favorite__item-btn{
+                    background-color: transparent;
+                    border:2px solid green;
+                    border-radius:5px;
+                    padding: 5px 10px;
+                    cursor: pointer;
+                    font-size: 16px;     
+                    font-weight: 500;
+                    transition: all 0.3s;
+                }
+                .favorite__item-btn:hover{
+                    background-color: green;
+                    color: white;
+                }
+            }
+            .favorite__item-delete{
+                .favorite__item-iconDel{
+                    font-size: 20px;
+                    color: red;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
